@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2ch;
+    padding-top: 2ch;
+}
+
+header {
+    background-color: deepskyblue;
+    width: 100%;
+    text-align: center;
+    padding: 2ch;
+}
+
+nav {
+    background-color: deeppink;
+    border: 2ch solid purple;
+    border-image: linear-gradient(yellow, red) 3;
+    height: min-content;
+    min-width: 18ch;
+    margin: 0 auto;
+}
+
+main {
+    background-color: forestgreen;
+    flex: 1;
+    min-width: 66%;
+    padding: 2ch;
+}
